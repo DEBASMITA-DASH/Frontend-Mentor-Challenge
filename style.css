@@ -1,0 +1,121 @@
+.body{
+  font-family:  "Bai Jamjuree", sans-serif;
+}
+#all-pages{
+background-color: #f6f5f1;
+padding: 0 10%;
+text-align: center;
+
+/* pages */
+}
+#first-page{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#third-page{
+margin-top: 150px;
+}
+#fourth-page{
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+#last-page{
+  padding-bottom: 100px;
+}
+
+/* Divs */
+.feature-box{
+  padding-bottom: 80px;
+}
+.container-fluid{
+  text-align: center;
+  background-color: #dbf6e9;
+  padding: 40px 0;
+}
+.social-media{
+padding: 0 10px;
+}
+
+/* images */
+.logo{
+  padding-bottom: 80px;
+}
+.computer{
+  float: left;
+  margin-right: 10%;
+}
+#third-page img{
+  height: 100%;
+  width: 100%;
+}
+#fourth-page img{
+  padding-bottom: 40px;
+}
+.logo-bottom{
+padding-bottom: 20px;
+}
+/* Fonts */
+h1{
+  text-align: center;
+  color: #495464;
+  padding-bottom: 30px;
+
+}
+p{
+  text-align: center;
+  color: #7e7474;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.second-page-text{
+  text-align: left;
+}
+ h3{
+  padding-bottom: 30px;
+}
+/* Buttons */
+.buttons{
+  margin-bottom: 100px;
+  padding: 10px 0 ;
+
+}
+.btn{
+  margin: 0 30px;
+  border-radius: 50%;
+}
+.b1 {
+  background-color: blue;
+}
+.b1:hover {
+  background-color: #56dcc8;
+
+}
+  .b2 {
+    background-color: blue;
+  }
+  .b2:hover {
+    background-color: #b8de6f;
+}
+
+/* Media Query */
+@media (max-width:1000px){
+
+  .computer{
+  height: 80%;
+  width: 80%;
+  padding-bottom: 100px;
+
+  }
+  .second-page-text{
+    text-align: center;
+  }
+  .logo-box{
+    padding-bottom: 40px;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  #social-media{
+  padding: 40px 0px;
+  }
+}
